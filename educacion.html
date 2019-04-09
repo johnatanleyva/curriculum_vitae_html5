@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Educaci&oacute;n</title>
+</head>
+<body>
+	<header>
+    	<!-- 1. Logo SVG -->
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="black" stroke-width="1" fill="#0000FF"/>
+            <line x1="17" y1="30" x2="50" y2="30"  stroke-width="3" stroke="yellow" />
+            <line x1="17" y1="60" x2="36" y2="60"  stroke-width="3" stroke="yellow" />
+            <line x1="35" y1="30" x2="35" y2="60"  stroke-width="3" stroke="yellow" />
+            <line x1="58" y1="29" x2="58" y2="60"  stroke-width="3" stroke="yellow" />
+            <line x1="57" y1="60" x2="76" y2="60"  stroke-width="3" stroke="yellow" />
+            
+        </svg>  
+	</header>
+    <section>
+    	<!-- 2. Título  -->           
+		<h1>Curriculum Vitae</h1>
+        <!-- 3. Datos Personales  -->
+        <h2>Datos Personales</h2>
+        <h3>Nombres: Johnatan</h3>
+        <h3>Apellidos: Leyva Ruiz</h3>
+        <h3>Lugar Nacimiento: Ibagu&eacute;</h3>
+        <h3>Fecha Nacimiento: 15 de Abril de 1985</h3>
+        <!-- 4. Enlaces de menu basico  -->
+        <nav>
+        	<a href="index.html">Inicio</a>
+            <a href="educacion.html">Educaci&oacute;n</a>
+            <a href="experiencia.html">Experiencia Laboral</a>
+        </nav>
+        <!-- 5. Incorpora un título en h2 Educación  -->
+        <h2>Educaci&oacute;n</h2>
+        <!-- 6. Codifica una Tabla de 4 columnas  -->
+        <table border="1" cellspacing="0" cellpadding="0" width="50%">
+        	<thead>
+            	<tr>
+                    <td><strong>A&ntilde;o</strong></td>
+                    <td><strong>Instituci&oacute;n/ Titulo</strong></td>
+                    <td><strong>Lugar</strong></td>
+                    <td><strong>¿Culmin&oacute;?</strong></td>
+                </tr>    
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2004</td>
+                    <td>SENA<br>T&eacute;cnico Profesional en Mantenimiento Electr&oacute;nico</td>
+                    <td>Ibagu&eacute;</td>
+                    <td>SI</td>
+                </tr>
+            
+                <tr>
+                    <td>2008</td>
+                    <td>Fundaci&oacute;n Universitaria San Martin<br>Ingenieria de Sistemas</td>
+                    <td>Ibagu&eacute;</td>
+                    <td>SI</td>
+                </tr>
+                <tr>
+                    <td>2011</td>
+                    <td>Universidad Autonoma de Barcelona<br /> Diplomatura de Postgrado en Marketing Digital</td>
+                    <td>Virtual</td>
+                    <td>SI</td>
+                </tr>
+            </tbody>    
+		</table>
+        <!-- 7. Formulario titulado "Agregar Estudios"   -->
+        <form name="agregar_estudio" id="agregar_estudio" action="" method="post">
+            <h3>Agregar Estudios</h3>
+            <div>
+                <label for="anio">A&ntilde;o:</label>
+                <select name="anio" id="anio">
+                    <option value="2010">2010</option>
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                </select>
+            </div>
+            <br />
+            <div>    
+                <label for="institucion">Instituci&oacute;n:</label>
+                <input type="text" name="institucion" id="institucion" maxlength="300" size="90" />
+            </div>            
+            <br />  
+            <div>    
+                <label for="lugar">Lugar:</label>
+                <input type="text" name="lugar" id="lugar" maxlength="300" size="90" />
+            </div> 
+            <br /> 
+            <div> 
+                <input type="submit" name="enviar" id="enviar" value="Enviar" />
+            </div>           
+            <br />            
+		</form>                  
+	</section>
+     <!-- 8. Pie de pagina  -->
+    <footer>
+    	<div align="left">Direcci&oacute;n: Manzana a casa 1 Valparaiso 1 Etapa. Ibagu&eacute;, Tolima, Colombia</div>
+        <div align="left">Email: johnatanleyva@gmail.com. Celular: (+57) 3184723774</div>
+    </footer>        
+
+</body>
+</html>
